@@ -3,7 +3,10 @@ Useful Joomla 3.x plugin that turns off joomla caching for the desired pages by 
 PLEASE DO NOT FORGET TO ENABLE THE PLUGIN!  
 
 CacheControl is an easy to use plugin where you can define on what pages and components caching should be turned off.  
-This can help if you are using extensions that have trouble with the Joomla! cache.
+This can help if you are using extensions that have trouble with the Joomla! cache.  
+  
+(runs on Joomla 3.x only -> for a Joomla 4.x version see here -> T.B.D.)  
+  
 
   
 ----    
