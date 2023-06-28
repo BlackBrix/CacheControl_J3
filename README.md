@@ -53,3 +53,27 @@ This rule will stop caching for the article with the ID "999", only.
 
 However, if you have SEF enabled, you might not see the parameters that are sent.  
 In that case, disable SEF completely, load the site (or component) you want to stop caching for, write down the parameters that should trigger a rule, and finally switch back to SEF again.
+   
+    
+----  
+  
+  
+  
+### Settings:  
+#### Rules:  
+Add a line for each rule.   
+Each line consists of a list of url parameters.   
+For instance:   
+option=com_content&amp;view=article   
+would turn off caching for com_content in article view. 
+    
+You can also use '?' for any value,    
+for instance:      
+option=com_content&amp;view=article&amp;id=?  
+  
+Please do not forget to enable the plugin!  
+  
+#### Re-Enable Caching After Dispatch:  
+Wether caching should be re-enabled after a rule fired.   
+By that the page will be cached partially, but components such as com_content won't be cached.  
+This option doesn't work if the joomla cache plugin is enabled.  
